@@ -13,8 +13,7 @@ Name: *Forgot sorry, if its you, please claim!*
              
 /* SITE */
 Last update: 2011/11/12
-Standards: HTML5, PHP
-Software: Apache
+Standards: HTML5
 
 
                     
