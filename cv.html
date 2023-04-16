@@ -25,13 +25,36 @@ section{
 .headAfterSection::after {
     background: #474444;
 }
+a:hover{
+  color:#3b82f6;
+}
+.f-14px{
+  font-size:14px;
+}
+.lgblock{
+  display:none;
+}
+@media screen and (min-width: 992px) {
+ .lgblock{
+      display: inline-block;
+}
+.smblock{
+  display:none;
+}
+}
+@media screen and (max-width: 991px) {
+.smblock{
+  display:inline-block;
+}
+
+}
 </style>
 </head>
 <body class="bg-gray-400">
 <main class="lg:mx-40 my-10 rounded bg-white lg:px-20 px-10 py-10">
   <section class="pb-10 ">
     <div class="grid headAfterSection afterSection lg:grid-cols-2">
-      <div>
+      <div class="pb-5">
         <h2 class="text-4xl">Md Mazharul Anwar</h2>
         <h4 class="text-2xl text-blue-500">Head of Solution Architecture</h4>
         <p class="pt-3">Senior IT professional with over ten years of experience in software
@@ -43,14 +66,14 @@ section{
           faster using outcome-driven delivery such as agile, lean, JTBD. Strongly believes in servant leadership.
           </p>
       </div>
-      <div class="lg:text-right">
-        <p class="pb-5"><a href="mailto:me@mazharulanwar.com">me@mazharulanwar.com <i class="fa pl-5 fa-envelope"></i></a></p>
-        <p  class="pb-5"><a href="tel:+60122440200">+60122440200 <i class="fa pl-5  fa-phone"></i></a></p>
-        <p  class="pb-5"><a href="#">Kuala Lumpur, Malaysia <i class="fa pl-5 fa-map-marker"></i></a></p>
-        <p  class="pb-5"><a href="https://www.mazharulanwar.com">mazharulanwar.com  <i class="fa pl-5 fa-globe"></i></a></p>
-        <p  class="pb-5"><a href="https://www.linkedin.com/in/mazharul/">linkedin.com/in/mazharul/<i class="fab pl-5  fa-linkedin"></i></a></p>
-        <p  class="pb-5"><a href="https://github.com/mazharul/">github.com/mazharul/<i class="fab pl-5  fa-github"></i></a></p>
-        <p  class="pb-5"><a href="https://medium.com/@mazharul_anwar">medium.com/@mazharul_anwar<i class="fab pl-5  fa-medium"></i></a></p>
+      <div class="lg:text-right pb-5">
+        <p class="lg:pb-5"><a href="mailto:me@mazharulanwar.com"><i class="fa smblock  fa-envelope"></i> me@mazharulanwar.com <i class="fa lgblock pl-5 fa-envelope"></i></a></p>
+        <p  class="lg:pb-5"><a href="tel:+60122440200"><i class="fa smblock fa-phone"></i> +60122440200 <i class="fa pl-5 lgblock fa-phone"></i></a></p>
+        <p  class="lg:pb-5"><a href="#"><i class="fa smblock fa-map-marker"></i> Kuala Lumpur, Malaysia <i class="fa pl-5 lgblock fa-map-marker"></i></a></p>
+        <p  class="lg:pb-5"><a href="https://www.mazharulanwar.com"><i class="fa smblock fa-globe"></i> mazharulanwar.com  <i class="fa pl-5  lgblock fa-globe"></i></a></p>
+        <p  class="lg:pb-5"><a href="https://www.linkedin.com/in/mazharul/"><i class="fab smblock  fa-linkedin"></i> linkedin.com/in/mazharul/<i class="fab lgblock pl-5  fa-linkedin"></i></a></p>
+        <p  class="lg:pb-5"><a href="https://github.com/mazharul/"><i class="fab smblock  fa-github"></i> github.com/mazharul/<i class="fab pl-5 lgblock  fa-github"></i></a></p>
+        <p  class="lg:pb-5"><a href="https://medium.com/@mazharul_anwar"><i class="fab smblock  fa-medium"></i> medium.com/@mazharul_anwar<i class="fab pl-5  lgblock fa-medium"></i></a></p>
       </div>
     </div>
     <div class="border  border-black"></div>
@@ -60,34 +83,34 @@ section{
     <div class="pb-5">
       <h3 class="text-3xl">SKILLS</h3>
     </div>
-    <div class="grid lg:grid-cols-2 gap-10">
-        <div class="lg:pr-10">
-          <div class="grid grid-cols-2 pb-5 justify-between">
-            <div>
+    <div class="grid f-14px lg:grid-cols-5 gap-2">
+        <div class="lg:pr-5  lg:col-span-2 ">
+          <div class="grid grid-cols-2 justify-between">
+            <div  class="mt-1">
               <span>Software Architecture</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
               <div class="h-full bg-blue-500 rounded-full" style="width: 100%"></div>
             </div>
           </div>
-          <div class="grid  pb-5  grid-cols-2 justify-between">
-            <div>
+          <div class="grid    grid-cols-2 justify-between">
+            <div  class="mt-1">
               <span>Technical Leadership</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
               <div class="h-full bg-blue-500 rounded-full" style="width: 100%"></div>
             </div>
           </div>
-          <div class="grid  pb-5  grid-cols-2 justify-between">
-            <div>
+          <div class="grid  grid-cols-2 justify-between">
+            <div  class="mt-1">
               <span>Software Development</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
               <div class="h-full bg-blue-500 rounded-full" style="width: 100%"></div>
             </div>
           </div>
-          <div class="grid  pb-5  grid-cols-2 justify-between">
-            <div>
+          <div class="grid  grid-cols-2 justify-between">
+            <div  class="mt-1">
               <span>Microservices</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
@@ -95,18 +118,18 @@ section{
             </div>
           </div>
         </div>
-        <div  class="lg:pl-10">
+        <div  class="lg:pl-5  lg:col-span-3 f-14px">
           <div class="grid grid-cols-2 justify-between">
-            <div>
-              <span>Infrastructure & Platform
+            <div class="mt-1">
+              <span >Infrastructure & Platform
                 Engineering</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
               <div class="h-full bg-blue-500 rounded-full" style="width: 100%"></div>
             </div>
           </div>
-          <div class="grid grid-cols-2 justify-between">
-            <div>
+          <div class="grid grid-cols-2  justify-between">
+            <div class="mt-1">
               <span>Solution Engineering &
                 Delivery</span>
             </div>
@@ -115,15 +138,15 @@ section{
             </div>
           </div>
           <div class="grid grid-cols-2 justify-between">
-            <div>
+            <div  class="mt-1">
               <span>Developer Advocacy</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
               <div class="h-full bg-blue-500 rounded-full" style="width: 95%"></div>
             </div>
           </div>
-          <div class="grid grid-cols-2  pt-4  justify-between">
-            <div>
+          <div class="grid grid-cols-2  justify-between">
+            <div  class="mt-1">
               <span>AWS</span>
             </div>
             <div class="w-full mt-2 h-4 bg-gray-200 rounded-full">
