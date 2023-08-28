@@ -143,3 +143,53 @@ button:hover, button.active, #life label.active[for="pause"] {
 #copyright {
     color: #333333;
 }
+
+
+li::marker{
+    color:#3b82f6;
+  }
+  
+  .afterSection::after {
+      width: 40px;
+      height: 60px;
+      background: #3b82f6;
+      position: absolute;
+      top: 8px;
+      content: '';
+      left: -80px;
+  }
+  section{
+    position:relative;
+  }
+  .headAfterSection::after {
+      background: #474444;
+  }
+  a:hover{
+    color:#3b82f6;
+  }
+  .f-14px{
+    font-size:14px;
+  }
+  .lgblock{
+    display:none;
+  }
+  @media screen and (min-width: 992px) {
+   .lgblock{
+        display: inline-block;
+  }
+  .smblock{
+    display:none;
+  }
+  }
+  @media screen and (max-width: 991px) {
+  .smblock{
+    display:inline-block;
+  }
+  
+  }
+  
+  .text-blue-500-override {
+      --tw-text-opacity: 1;
+      color: #0e32d9;
+  }
+
