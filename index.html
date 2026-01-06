@@ -1,58 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
-<title> Protishobdo - Reflection Of Sound </title>
-<link media="all" href="css/style.css" type="text/css" rel="stylesheet">
-<link rel="author" href="humans.txt" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mazharul Anwar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind.config.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<header>
-<div id="headbar">
-<span class="breadcrumbs"> Mazharul Anwar </span>
-</div>
-</header>
-<section>
-<article>
-<div id="content">
-<h2>Mazharul Anwar</h2>
-<h3>Technology Leader, Software Architect, and Passionate Advocate for Innovation</h3>
-<p>
-  I’ve been in the tech industry for over a decade, building software, architecting systems, leading high-performance teams, and guiding startups from idea to success. Through every challenge and project, I’ve learned that adaptability, learning from failures, and nurturing a strong team are what truly drive innovation.
-</p>
-<p> 
-  As the Head of Engineering - Digital at Pickles Auctions, I lead diverse technology and product streams, empowering over 200 technologists. My mission is to cultivate a culture where teams can thrive, solve meaningful problems, and embrace innovation. Whether it’s architecting cloud-native solutions, driving automation, or ensuring our platform meets the needs of our users, I believe in making technology impactful.
 
-  I’m also working on building an Engineering Center of Excellence to uplift technical capabilities, foster collaboration, and set high standards across the organization. I take pride in enabling my teams to deliver outcomes that matter, ensuring that we’re not just building software, but building value.
-</p>
+<body class="bg-dark text-slate-300 antialiased selection:bg-primary selection:text-white">
 
-<p>
-  Previously, I served as Head of Solution Architecture at Petronas, where I played a critical role in shaping and executing the technical vision of large-scale projects like ROVR. These experiences helped me realize the importance of aligning technical strategies with real customer needs, and that’s a lesson I carry forward today in every aspect of my work.
+  <!-- Background Effects -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+    <div
+      class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl opacity-50 mix-blend-screen animate-pulse">
+    </div>
+    <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl opacity-50 mix-blend-screen"
+      style="animation-delay: 2s"></div>
+  </div>
 
-</p>
+  <div class="max-w-3xl mx-auto px-6 py-16 lg:py-24">
 
-<p>
-  Beyond my roles, I’m passionate about mentoring engineers and helping them grow, both technically and personally. I believe in servant leadership—empowering others and creating opportunities for them to succeed. Whether I’m spending time in a terminal experimenting with new technologies, coaching a team member, or strategizing for the future, I’m driven by curiosity and the impact technology can have when used well.
+    <!-- Header -->
+    <header class="mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-white mb-2">
+        Mazharul <span class="gradient-text">Anwar</span> <span
+          class="text-2xl md:text-3xl text-slate-500 font-normal ml-2">(Maz)</span>
+      </h1>
+      <p class="text-slate-500 text-lg">Sydney, Australia</p>
+    </header>
 
-</p>
+    <!-- Main Content -->
+    <main class="space-y-12">
 
-<p>
-  If you’re interested in connecting, whether to talk tech, explore opportunities, or share thoughts on leadership and innovation, I’m always open to a conversation. Feel free to reach out!
-</p>
+      <!-- Intro -->
+      <section class="space-y-6">
+        <p class="text-xl leading-relaxed text-slate-300">
+          I'm an engineering leader. Currently Head of Engineering at <a href="https://www.pickles.com.au"
+            target="_blank" class="text-primary hover:text-secondary transition-colors">Pickles Auctions</a>, where I
+          lead teams across Australia and Malaysia.
+        </p>
 
+        <p class="text-lg leading-relaxed text-slate-400">
+          The short version: 15+ years building software, scaling teams, and occasionally figuring out how to make old
+          things new again. I took a 60-year-old auction house digital. I built a mobile petrol station from scratch at
+          PETRONAS. I've grown engineering orgs 5x while making them more efficient, not just bigger.
+        </p>
+      </section>
 
-<p> 
-  <a href='http://my.linkedin.com/in/mazharul' parent='_blank'>[linkedIn]</a> 
-  &nbsp;
-  <a href='http://github.com/mazharul'>[github]</a> &nbsp; 
-</p>
+      <!-- What I think about -->
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-white">What I think about</h2>
+        <div class="text-slate-400 leading-relaxed space-y-4">
+          <p>
+            I'm interested in how engineering organisations actually work — not the org chart version, but the real
+            mechanics. Why some teams ship and others don't. How platform engineering creates leverage. What breaks when
+            you scale, and what doesn't.
+          </p>
+          <p>
+            I have opinions about technical leadership, most of them learned by getting things wrong first.
+          </p>
+        </div>
+      </section>
 
-</div>
-</article>
-</section>
-<footer>
-<div id="footer">
-<div id="copyright"><span id="site-name">Mazharul Anwar</span><span id="time-expand">&copy;2007- 2024</span></div>
-</div>
-</footer>
+      <!-- What I'm exploring -->
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-white">What I'm exploring</h2>
+        <p class="text-slate-400 leading-relaxed">
+          I'm building things on the side — small tools, product experiments, ways to test ideas quickly. I like the
+          early stages where everything is possible and nothing works yet. Currently interested in AI-assisted workflows
+          and what "good enough" architecture looks like for early-stage products.
+        </p>
+      </section>
+
+      <!-- Beyond work -->
+      <section class="space-y-4">
+        <h2 class="text-2xl font-semibold text-white">Beyond work</h2>
+        <p class="text-slate-400 leading-relaxed">
+          I read too much, mass consume coffee, and I'm learning that some of the best thinking happens away from the
+          screen.
+        </p>
+      </section>
+
+      <!-- Get in touch -->
+      <section class="space-y-6 pt-8 border-t border-slate-800">
+        <h2 class="text-2xl font-semibold text-white">Get in touch</h2>
+        <p class="text-slate-400 leading-relaxed">
+          I'm open to advisory conversations, interesting problems, or just talking shop. If you're building something
+          and want a second opinion on engineering strategy, architecture, or scaling teams — happy to chat.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="mailto:me@mazharulanwar.com"
+            class="glass-card px-5 py-3 rounded-lg flex items-center gap-3 transition-all hover:-translate-y-1 group">
+            <i class="fa-solid fa-envelope text-primary group-hover:text-secondary transition-colors"></i>
+            <span>me@mazharulanwar.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/mazharul/" target="_blank"
+            class="glass-card px-5 py-3 rounded-lg flex items-center gap-3 transition-all hover:-translate-y-1 group">
+            <i class="fa-brands fa-linkedin text-primary group-hover:text-secondary transition-colors"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/mazharul" target="_blank"
+            class="glass-card px-5 py-3 rounded-lg flex items-center gap-3 transition-all hover:-translate-y-1 group">
+            <i class="fa-brands fa-github text-primary group-hover:text-secondary transition-colors"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- CV Link -->
+      <section class="pt-8 flex justify-center md:justify-start">
+        <a href="/cv"
+          class="group relative px-8 py-4 bg-primary hover:bg-teal-500 text-dark font-bold rounded-full transition-all hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(14,165,233,0.5)] flex items-center gap-3">
+          <span>View Full CV</span>
+          <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+        </a>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-24 pt-8 border-t border-slate-800/50 text-slate-600 text-sm">
+      <p>&copy; 2026 Mazharul Anwar</p>
+    </footer>
+
+  </div>
+
 </body>
+
 </html>
