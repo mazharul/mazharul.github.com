@@ -1,6 +1,6 @@
 /* TEAM */
 Name: Mazharul Anwar.
-Site: maz[at]protishobdo[dot]com.
+Site: me[at]mazharulanwar[dot]com.
 Twitter: @mazharul_anwar.
 Location: *Secret*.
 
@@ -8,11 +8,10 @@ Location: *Secret*.
 			
 
 /* THANKS */
-Name: *Forgot sorry, if its you, please claim!*
 
              
 /* SITE */
-Last update: 2011/11/12
+Last update: 2026/01/07
 Standards: HTML5
 
 
